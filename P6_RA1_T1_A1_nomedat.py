@@ -1,0 +1,1 @@
+print("Hola, soc Nil i tinc 18 anys")
