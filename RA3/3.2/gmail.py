@@ -6,14 +6,13 @@
 
 class compteusuari:
     def __init__(self, email):
-        self.email = email  
+        self.__email = email  
 
-    @property
-    def email(self):
+    
+    def get_email(self):
         return self.__email
 
-    @email.setter
-    def email(self, nou_email):
+    def set_email(self, nou_email):
         if "@" in nou_email and "." in nou_email:
             self.__email = nou_email
         else:
